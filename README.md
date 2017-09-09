@@ -1,6 +1,6 @@
 # Robust Monetary Policy under Time-Varying Model Uncertainty
 
-This repo contains the code used for the thesis [Robust Monetary Policy under Time-Varying Model Uncertainty](Robust%20Monetary%20Policy%20under%20Time%2DVarying%20Model%20Uncertainty.pdf). Below is a brief description for replicating the results.
+This repo contains the code used for the thesis <a href="Robust%20Monetary%20Policy%20under%20Time%2DVarying%20Model%20Uncertainty.pdf" target="_blank">Robust Monetary Policy under Time-Varying Model Uncertainty</a>. Below is a brief description for replicating the results.
 
 ## Simulations in Section 5
 
