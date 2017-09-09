@@ -14,11 +14,11 @@ This repo contains the code used for the thesis <a href="http://nbviewer.jupyter
 
 `DetErrProb.m` is called by `Sim_m` to calculate the detection error probabilities. The function is as in Giordani and Söderlind (2004) , except that it uses θ instead of -1/θ.
 
-`Var1SimPs.m` is called by `DetErrProb.m` to model the evolution of the state variables. The function is as in Giordani & Söderlind (2004). 
+`Var1SimPs.m` is called by `DetErrProb.m` to model the evolution of the state variables. The function is as in Giordani and Söderlind (2004). 
 
-`DiscAlgR.m`. The function transforms the decision problem such that the rational expectations techniques of Backus & Driffil (1986) can be applied to iterate backwards to convergence. It calls on `DiscAlg.m`. The function is as in Giordani & Söderlind (2004), except that it additionally checks whether the matrix V<sub>t</sub> is positive-definite during each iteration.
+`DiscAlgR.m`. The function transforms the decision problem such that the rational expectations techniques of Backus and Driffil (1986) can be applied to iterate backwards to convergence. It calls on `DiscAlg.m`. The function is as in Giordani and Söderlind (2004), except that it additionally checks whether the matrix V<sub>t</sub> is positive-definite during each iteration.
 
-`DiscAlg.m`. Iterates backwards until convergence. To do so, it calls `DiscAlg2.m` during each iteration. The function is as in Giordani & Söderlind (2004), except that it additionally checks whether the matrix V<sub>t</sub> is positive-definite during each iteration. 
+`DiscAlg.m`. Iterates backwards until convergence. To do so, it calls `DiscAlg2.m` during each iteration. The function is as in Giordani and Söderlind (2004), except that it additionally checks whether the matrix V<sub>t</sub> is positive-definite during each iteration. 
 
 `DiscAlg2.m`. Calculates the left-hand sides of equations (3.9) – (3.12). The function is as in Giordani & Söderlind (2004).
 
